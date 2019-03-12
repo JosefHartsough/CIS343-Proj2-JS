@@ -74,7 +74,7 @@ class GameOfLife {
     }
 
 
-    // Returns a string representation of the grid (for display purposes)
+    // Display the grid
     toString() {
         let str = '\n';
         for (let i = 0; i < this.rows; i++) {
