@@ -34,7 +34,7 @@ function main(){
                     gol.saveGrid(filename.trim());
                     console.log("Grid saved to file " + filename + "\n");
                     break;
-
+                //Iteration of generations n times.
                 case "n":
                     let num = parseInt(readlineSync.question("How many iterations? "));
                     for (let i = 0; i < num; i++) {
@@ -42,6 +42,7 @@ function main(){
                         console.log(gol.toString());
                     }
                     break;
+                    //Return-next generation
                 case "":
                     gol.mutate();
                     console.log(gol.toString());
