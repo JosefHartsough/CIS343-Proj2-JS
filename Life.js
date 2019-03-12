@@ -1,17 +1,4 @@
-'use strict';
 
-//*********************************************************
-//Filename: life.js
-//
-//Author: Josef Hartsough, Jarod Collier, Maz Ashgar
-//*********************************************************
-const readlineSync = require('readline-sync');
-
-//Node.js file system -this is required to use the file system
-let fs = require('fs');
-
-// Class that represents Game of Life
-class GameOfLife {
 
     // Constructor that sets up instance variables with default values
     constructor() {
@@ -72,22 +59,4 @@ class GameOfLife {
         if (i+1 < x && j+1 < y   && this.grid[i+1][j+1] > 0) live_neighbors++;    // test cell down-right
         return live_neighbors;
     }
-
-
-    // Display the grid
-    toString() {
-        let str = '\n';
-        for (let i = 0; i < this.rows; i++) {
-            for (let j = 0; j < this.cols; j++) {
-                if (this.grid[i][j] === 0) {
-                    str += ' 0 ';
-                } else {
-                    str += ' X ';
-                }
-            }
-            str += "\n";
-        }
-        return str;
-    }
-}
 
