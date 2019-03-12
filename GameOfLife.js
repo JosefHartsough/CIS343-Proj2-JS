@@ -9,7 +9,7 @@ function main(){
     }
 
 //New Game Of Life object
-    let GOL = new GameOfLife();
+    let gol = new GameOfLife();
 
     //Data from the given filename put into grid
     gol.loadGrid(process.argv[2]);
