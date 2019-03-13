@@ -2,3 +2,4 @@
 Must have readlinesync package to use terminal.
 -Use this to install
 npm install --save readline-sync 
+To run: node GOL. sample1.gol
