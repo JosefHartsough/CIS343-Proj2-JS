@@ -12,7 +12,7 @@ function main(){
     let gol = new GameOfLife();
 
     //Data from the given filename put into grid
-    gol.loadGrid(process.argv[2]);
+    gol.getGrid(process.argv[2]);
     console.log("Beginning with grid size " + gol.rows + "," + gol.cols);
     console.log(gol.toString());
 
