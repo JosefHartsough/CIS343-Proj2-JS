@@ -175,7 +175,7 @@ function main() {
                     console.log();
                     for (let i = 0; i < num; i++) {
                         gol.mutate();
-                        console.log(`step: ${i+1}`);
+                        console.log(`Generation: ${i+1}`);
                         gol.printGrid(gol);
                     }
                     break;
