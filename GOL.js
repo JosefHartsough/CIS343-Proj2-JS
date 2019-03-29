@@ -180,7 +180,7 @@ function main() {
                 "or q to quit? ");
             line = line.trim().toLowerCase();
             switch (line) {
-                //Quit
+                /** Quit GOL */
                 case "q":
                     console.log("Exiting program");
                     process.exit(0);
