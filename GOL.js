@@ -108,7 +108,6 @@ class GameOfLife {
     getNeighbors returns the number of live neighbors a cell has.
     @return Returns the number of live neighbors for cell at this.grid[i][j]
     *****************************************************************/	
-    Returns the number of live neighbors for cell at this.grid[i][j]
     getNeighbors(i, j) {
         let live_neighbors = 0;
         let x = this.rows;
