@@ -83,7 +83,7 @@ class GameOfLife {
                 if (this.grid[i][j] !== 0 && liveNeighbor < 2) {
                     temp_grid[i][j] = 0;
                 }
-                /** a cell with 2 or 3 live neighbors lives */'
+                /** a cell with 2 or 3 live neighbors lives */
                 else if (this.grid[i][j] !== 0 && (liveNeighbor === 2 || liveNeighbor === 3)) {
                     temp_grid[i][j] = 1;
                 }
