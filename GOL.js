@@ -2,7 +2,7 @@
 Conways Game Of Life 
 
 @authors Josef Hartsough, Jarod Collier,  Maz Ashgar
-@version Winter 2007
+@version Winter 2019
 *****************************************************************/
 
 /**File system for Node.js */
